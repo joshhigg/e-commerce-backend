@@ -21,6 +21,7 @@ Product.init(
     },
     price: {
       // maybe did this wrong
+      // Not showing the whole price
       type: DataTypes.DECIMAL,
       allowNull: false,
       validate: {
